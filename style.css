@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.background-image {
+  position: absolute;
+}
+
+.header,
+.navbar,
+.logo {
+  position: relative;
+  z-index: 2;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.header {
+  padding: 20px 30px;
+  margin-top: 80px;
+}
+
+.pretitle {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.navbar {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0px 10px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+}
